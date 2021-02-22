@@ -1,0 +1,37 @@
+{
+	"name": "mati-core/datagrid",
+	"license": "MIT",
+	"description": "Datagrid for Nette - compatible with AdminLTE 3",
+	"homepage": "https://github.com/mati-core/datagrid",
+	"authors": [
+		{
+			"name": "Martin Olmr",
+			"homepage": "https://martinolmr.cz"
+		}
+	],
+	"require": {
+		"php": ">=8.0",
+		"nette/utils": "^3.0",
+		"nette/forms": "^3.0",
+		"nette/di": "^3.0",
+		"ublaboo/datagrid": "~6.6.0"
+	},
+	"require-dev": {
+		"nette/tester": "~2.0",
+		"tracy/tracy": "^2.3",
+		"phpstan/phpstan": "^0.12",
+		"phpstan/phpstan-nette": "^0.12.6"
+	},
+	"autoload": {
+		"classmap": [
+			"src/"
+		]
+	},
+	"minimum-stability": "stable",
+	"scripts": {
+		"phpstan": [
+			"vendor/bin/phpstan analyse src -c phpstan.neon --level 6 --no-progress"
+		],
+		"tester": "tester tests -s"
+	}
+}
