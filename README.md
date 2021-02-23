@@ -13,3 +13,20 @@ Install
 ```bash
 composer require mati-core/datagrid
 ```
+
+**Include CSS**
+
+```html
+<!-- Datagrid -->
+<link rel="stylesheet" href="{$basePath}/assets/datagrid/datagrid.css">
+<link rel="stylesheet" href="{$basePath}/assets/datagrid/datagrid-spinners.css">
+```
+
+**Include JS**
+
+```html
+<!-- Datagrid -->
+<script src="{$basePath}/assets/datagrid/datagrid.js"></script>
+<script src="{$basePath}/assets/datagrid/datagrid-spinners.js"></script>
+<script src="{$basePath}/assets/datagrid/datagrid-instant-url-refresh.js"></script>
+```
