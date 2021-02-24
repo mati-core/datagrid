@@ -1,9 +1,9 @@
 # Mati-Core | DataGrid
 
-[![Downloads this Month](https://img.shields.io/packagist/dm/mati-core/datagrid.svg)](https://packagist.org/packages/mati-core/datagrid)
-[![Build Status Windows](https://ci.appveyor.com/api/projects/status/github/mati-core/datagrid?branch=main&svg=true)](https://packagist.org/packages/mati-core/datagrid)
-[![Latest Stable Version](https://poser.pugx.org/mati-core/datagrid/v/stable)](https://github.com/mati-core/datagrid/releases)
-[![License](https://img.shields.io/badge/license-MIT-yellow.svg)](https://github.com/mati-core/datagrid/blob/master/license.md)
+[![Latest Stable Version](https://poser.pugx.org/mati-core/datagrid/v)](//packagist.org/packages/mati-core/datagrid)
+[![Total Downloads](https://poser.pugx.org/mati-core/datagrid/downloads)](//packagist.org/packages/mati-core/datagrid)
+[![Latest Unstable Version](https://poser.pugx.org/mati-core/datagrid/v/unstable)](//packagist.org/packages/mati-core/datagrid)
+[![License](https://poser.pugx.org/mati-core/datagrid/license)](//packagist.org/packages/mati-core/datagrid)
 
 Datagrid for Nette - compatible with AdminLTE 3
 
